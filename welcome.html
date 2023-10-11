@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to Survival Weekly! - Survival Weekly</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/styles.css">
+		<link rel="icon" type="image/png" href="assets/images/survivalweekly-icon.png">
+	</head>
+	<body>
+		<header>
+			<div id="site-branding">
+				<h1><a href="welcome.html">Survival<br>Weekly</a></h1>
+				<nav class="nav-menu">
+					<ul>
+				      <li><a href="welcome.html" class="nav nav-active">Welcome</a></li>
+				      <li>
+				      	<a href="about.html" class="nav ">About</a>
+				      	<ul class="subnav-menu">
+				      		<li><a href="#" class="subnav ">Disclaimers</a></li>
+				      		<li><a href="contact.html" class="subnav ">Contact Us</a></li>
+				      		<li><a href="#" class="subnav ">Disaster Prep Consultants</a></li>
+				      	</ul>
+				      </li>
+				      <li><a href="#" class="nav ">Books by Jim Cobb</a></li>
+				      <li>
+				      	<a href="#" class="nav ">Blog</a>
+				      	<ul class="subnav-menu">
+				      		<li><a href="#" class="subnav ">Library at the End of the<br>World</a></li>
+				      		<li><a href="#" class="subnav ">SW Blog</a></li>
+				      		<li><a href="#" class="subnav ">Self Reliant Woman</a></li>
+				      		<li><a href="#" class="subnav ">Survival Retreat</a></li>
+				      		<li><a href="#" class="subnav ">Tactical Corner</a></li>
+				      	</ul>
+				      </li>
+				      <li>
+				      	<a href="reviews.html" class="nav ">Reviews</a>
+				      	<ul class="subnav-menu">
+				      		<li><a href="#" class="subnav ">Books</a></li>
+				      		<li><a href="#" class="subnav ">Fire Making</a></li>
+				      		<li><a href="#" class="subnav ">Knives, Axes & Other<br>Tools</a></li>
+				      		<li><a href="#" class="subnav ">Lights</a></li>
+				      		<li><a href="#" class="subnav ">Miscellaneous</a></li>
+				      		<li><a href="#" class="subnav ">Offgrid Cooking</a></li>
+				      		<li><a href="#" class="subnav ">Packs, Pouches &<br>Organizers</a></li>
+				      		<li><a href="#" class="subnav ">Power</a></li>
+				      		<li><a href="#" class="subnav ">Survival Kits</a></li>
+				      		<li><a href="#" class="subnav ">Water Filtration &<br>Storage</a></li>
+				      	</ul>
+				      </li>
+				      <li><a href="#" class="nav ">The Survival Weekly Dispatch</a></li>
+				      <li>
+				      	<a href="#" class="nav " id="more">More</a>
+				      	<ul class="subnav-menu">
+				      		<li><a href="#" class="subnav ">Point to Pommel<br>Newsletter</a></li>
+				      		<li><a href="#" class="subnav ">Advertising</a></li>
+				      		<li><a href="#" class="subnav ">Classes & Workshops</a></li>
+				      		<li><a href="#" class="subnav ">Need a Guest Speaker?</a></li>
+				      		<li><a href="#" class="subnav ">VIP Access</a></li>
+				      	</ul>
+				      </li>
+					</ul>
+				</nav>
+				<script src="assets/scripts/nav-active.js"></script>
+				<div id="menu">
+					<div id="mobile-menu" class="overlay">
+						<a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">&times;</a>
+						<ul class="mobile-menu-content">
+							<li><a href="welcome.html" class="mobile-nav">Welcome</a></li>
+						    <li>
+						    	<a href="about.html" class="mobile-nav-parent">About</a>
+						    	<input type="button" value="+" class="mobile-menu-more">
+						    	</input>
+						    	<ul id="about-dropdown" class="mobile-subnav-menu">
+						      		<li><a href="#" class="mobile-subnav ">Disclaimers</a></li>
+						      		<li><a href="about/contact.html" class="mobile-subnav ">Contact Us</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Disaster Prep Consultants</a></li>
+						      	</ul>
+						    </li>
+						    <li><a href="#" class="mobile-nav">Books by Jim Cobb</a></li>
+						    <li>
+						    	<a href="#" class="mobile-nav-parent">Blog</a>
+						    	<input type="button" value="+" class="mobile-menu-more">
+						    	<ul id="blog-dropdown" class="mobile-subnav-menu">
+						      		<li><a href="#" class="mobile-subnav ">Library at the End of the<br>World</a></li>
+						      		<li><a href="#" class="mobile-subnav ">SW Blog</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Self Reliant Woman</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Survival Retreat</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Tactical Corner</a></li>
+						      	</ul>
+						    </li>
+						    <li>
+						    	<a href="reviews.html" class="mobile-nav-parent">Reviews</a>
+						    	<input type="button" value="+" class="mobile-menu-more">
+						    	<ul id= "reviews-dropdown" class="mobile-subnav-menu">
+						      		<li><a href="#" class="mobile-subnav ">Books</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Fire Making</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Knives, Axes & Other<br>Tools</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Lights</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Miscellaneous</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Offgrid Cooking</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Packs, Pouches &<br>Organizers</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Power</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Survival Kits</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Water Filtration &<br>Storage</a></li>
+						      	</ul>
+						    </li>
+						    <li><a href="#" class="mobile-nav ">The Survival Weekly Dispatch</a></li>
+						    <li>
+						    	<a href="#" class="mobile-nav-parent">More</a>
+						    	<input type="button" value="+" class="mobile-menu-more">
+						    	<ul id="more-dropdown" class="mobile-subnav-menu">
+						      		<li><a href="#" class="mobile-subnav ">Point to Pommel<br>Newsletter</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Advertising</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Classes & Workshops</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Need a Guest Speaker?</a></li>
+						      		<li><a href="#" class="mobile-subnav ">VIP Access</a></li>
+						      	</ul>
+						    </li>
+						    <script src="assets/scripts/mobile-menu.js"></script>
+						</ul>
+					</div>
+					<a href="javascript:void(0);"><img src="assets/images/menu-icon.png" width="40px" class="menu-icon" onclick="openMenu()"></a>
+				</div>
+			</div>
+		</header>
+		<main id="welcome-main">
+			<section id="slideshow" class="slideshow-container">
+				<div class="slide-container">
+					<div class="slide fade">
+					    <img src="assets/images/slide-1.png" style="height:100%">
+					    <div class="text-wrap w1 from-left" style="display: inline-block;">
+					    	<h2 style="background-color: #e3e3e3; color: black; padding: 5px 10px">No matter what type of disaster you are preparing for</h2>
+					    </div><br>
+					    <div class="text-wrap w2 from-bottom" style="display: inline-block;">
+					    	<h2 style="background-color: #455d7a; color: #e3e3e3; padding: 5px 10px">Survival Weekly wants to help you do it safely and effectively</h2>
+						</div>
+					</div>
+					<div class="slide fade">
+					    <img src="assets/images/slide-2.png" style="height:100%">
+					    <div class="text-wrap w1 from-left" style="display: inline-block;">
+					    	<h2 style="background-color: #e3e3e3; color: black; padding: 5px 10px">Library at the End of the World Podcast</h2>
+					    </div><br>
+					    <div class="text-wrap w2 from-bottom" style="display: inline-block;">
+					    	<h2 style="background-color: #455d7a; color: #e3e3e3; padding: 5px 10px">A new installment every Friday</h2>
+						</div>
+					</div>
+					<div class="slide fade">
+					    <img src="assets/images/slide-3.jpg" style="height:100%">
+					    <div class="text-wrap w1 from-left" style="display: inline-block;">
+					    	<h2 style="background-color: #e3e3e3; color: black; padding: 5px 10px">Prepare for the worst</h2>
+					    </div><br>
+					    <div class="text-wrap w2 from-bottom" style="display: inline-block;">
+					    	<h2 style="background-color: #455d7a; color: #e3e3e3; padding: 5px 10px">Or just the next power outage</h2>
+						</div>
+					</div>
+					<div>
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+					<div id="dots">
+					    <span class="dot" onclick="currentSlide(1)"></span>
+					    <span class="dot" onclick="currentSlide(2)"></span>
+					    <span class="dot" onclick="currentSlide(3)"></span>
+					</div>
+				</div>
+				<script src="assets/scripts/slideshow.js"></script>
+			</section>
+			<section id="welcome-message">
+				<h1>Welcome to Survival Weekly!</h1>
+				<p>Our goal is to help you become better prepared for whatever life decides to throw your way, from power outages to natural disasters, pandemics to the dreaded End Of The World As We Know It.</p>
+				<p>We have articles, product reviews, videos………  and a common sense approach to preparedness.</p>
+				<p>We have a few different blogs, too.  The <a href="https://survivalweekly.com/blogs/blog-holding-place-1/">Library at the End of the World</a> is where you’ll find reviews of fiction, non-fiction, and movies. <a href="https://survivalweekly.com/blogs/blog-the-self-sufficient-woman/">The Self-Reliant Woman</a> is filled with memories from Deborah in the UP’s time living off-grid. The <a href="https://survivalweekly.com/category/survival-weekly-blog/">SW Blog</a> is sort of a catch-all, where you’ll find practical survival information as well as commentary on various current events and such.</p>
+				<p>Please follow us on <a href="http://twitter.com/survivalweekly">Twitter</a> and friend us on <a href="http://www.facebook.com/jimcobbsurvival/">Facebook</a>.<br></p>
+				<p><br></p>
+				<p>Help us bring you even more preparedness information.</p>
+				<p>Please consider <a href="https://www.paypal.com/donate?token=MoMSAhl3sijqtm_8vHHZVpdq0mXjXyRQ_tIquo687v6OPBuPt-lYhIKSyFuTLt_li-ou-MP4RPA9rfGt">donating to our site</a>.</p>
+			</section>
+			<section id="cta">
+				<article id="cta-1">
+					<button class="cta-icon"></button>
+					<h2>PREPARE</h2>
+					<p>Welcome to Survival Weekly! Our goal is to help you become better prepared for whatever life decides to throw your way, from power outages to natural disasters, pandemics to the dreaded End Of The World As We Know It.</p>
+					<button class="cta-button">Start your prepping here!</button>
+				</article>
+				<article id="cta-2">
+					<button class="cta-icon"></button>
+					<h2>CONNECT</h2>
+					<p>Jim is not just your host here on Survival Weekly. You can find him on social media such as Facebook, Twitter, YouTube and Pinterest. Jim also hosts a video show twice a month 'Get Prepped with Jim Cobb', and has a new podcast 'Library at the End of the World' that airs a new episode every Friday.</p>
+					<button class="cta-button">See what Jim is up to</button>
+				</article>
+				<article id="cta-3">
+					<button class="cta-icon"></button>
+					<h2>TAKE A CLASS</h2>
+					<p>Coming Soon! We're adding online learning. Come join us! Many of you have expressed disappointment at not being able to come learn with Jim in person. We hope to rectify that with our new online learning site. Come take a look at our plans and stay tuned for more courses in the near future.</p>
+					<button class="cta-button">Online learning with Jim Cobb<br>and Survival Weekly</button>
+				</article>
+			</section>
+			<section id="latest-video">
+				<h1>Check out our latest video</h1>
+				<iframe width="800" height="500" src="https://www.youtube.com/embed/Y6Jbo1ZGRFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<h1>Check out all of our videos <a href="https://www.youtube.com/user/JimSurvivalWeekly/videos">here</a></h1>
+			</section>
+			<section id="copyright-notice">
+				<h1>Copyright Notice</h1>
+				<p><i>Please note, all content on SurvivalWeekly.com is copyright protected, unless otherwise noted. Content is copyrighted by the authors of the content and is owned solely by them. Unless it is clearly stated otherwise, nothing from this site is allowed to be copied and posted to any other site without express permission.</i></p>
+			</section>
+	    </main>
+		<footer>
+			<section id="above-footer">
+				<div>
+		    		<h1>Disclaimer</h1>
+		    		<p>We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to <a href="https://amazon.com">Amazon.com</a> and affiliated sites.  Product links found on this site may be affiliate links.</p>
+		    		<p>Read all our disclaimers <a href="#">HERE</a>.</p>
+		    	</div>
+		    	<div>
+		    		<h1>New!</h1>
+		    		<p>Be sure to check out Jim's latest project:</p>
+		    		<p><a href="https://libraryateotw.libsyn.com">Library at the End of the World -podcast</a></p>
+		    	</div>
+			</section>
+			<section id="copyright">
+				<button onclick="toTop()" id="top-btn" title="Go to top">
+					<span id="up-arrow"></span>
+				</button>
+				<script src="assets/scripts/to-top.js"></script>
+				<p>&copy; 2023 SurvivalWeekly.com</p>
+				<p>Designed by Michael Cobb</p>
+			</section>
+		</footer>
+	</body>
+</html>

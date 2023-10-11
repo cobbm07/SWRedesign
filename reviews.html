@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to Survival Weekly! - Survival Weekly</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/styles.css">
+		<link rel="icon" type="image/png" href="assets/images/survivalweekly-icon.png">
+	</head>
+	<body>
+		<header>
+			<div id="site-branding">
+				<h1><a href="welcome.html">Survival<br>Weekly</a></h1>
+				<nav class="nav-menu">
+					<ul>
+				      <li><a href="welcome.html" class="nav ">Welcome</a></li>
+				      <li>
+				      	<a href="about.html" class="nav ">About</a>
+				      	<ul class="subnav-menu">
+				      		<li><a href="#" class="subnav ">Disclaimers</a></li>
+				      		<li><a href="contact.html" class="subnav ">Contact Us</a></li>
+				      		<li><a href="#" class="subnav ">Disaster Prep Consultants</a></li>
+				      	</ul>
+				      </li>
+				      <li><a href="#" class="nav ">Books by Jim Cobb</a></li>
+				      <li>
+				      	<a href="#" class="nav ">Blog</a>
+				      	<ul class="subnav-menu">
+				      		<li><a href="#" class="subnav ">Library at the End of the<br>World</a></li>
+				      		<li><a href="#" class="subnav ">SW Blog</a></li>
+				      		<li><a href="#" class="subnav ">Self Reliant Woman</a></li>
+				      		<li><a href="#" class="subnav ">Survival Retreat</a></li>
+				      		<li><a href="#" class="subnav ">Tactical Corner</a></li>
+				      	</ul>
+				      </li>
+				      <li>
+				      	<a href="reviews.html" class="nav nav-active">Reviews</a>
+				      	<ul class="subnav-menu">
+				      		<li><a href="#" class="subnav ">Books</a></li>
+				      		<li><a href="#" class="subnav ">Fire Making</a></li>
+				      		<li><a href="#" class="subnav ">Knives, Axes & Other<br>Tools</a></li>
+				      		<li><a href="#" class="subnav ">Lights</a></li>
+				      		<li><a href="#" class="subnav ">Miscellaneous</a></li>
+				      		<li><a href="#" class="subnav ">Offgrid Cooking</a></li>
+				      		<li><a href="#" class="subnav ">Packs, Pouches &<br>Organizers</a></li>
+				      		<li><a href="#" class="subnav ">Power</a></li>
+				      		<li><a href="#" class="subnav ">Survival Kits</a></li>
+				      		<li><a href="#" class="subnav ">Water Filtration &<br>Storage</a></li>
+				      	</ul>
+				      </li>
+				      <li><a href="#" class="nav ">The Survival Weekly Dispatch</a></li>
+				      <li>
+				      	<a href="#" class="nav " id="more">More</a>
+				      	<ul class="subnav-menu">
+				      		<li><a href="#" class="subnav ">Point to Pommel<br>Newsletter</a></li>
+				      		<li><a href="#" class="subnav ">Advertising</a></li>
+				      		<li><a href="#" class="subnav ">Classes & Workshops</a></li>
+				      		<li><a href="#" class="subnav ">Need a Guest Speaker?</a></li>
+				      		<li><a href="#" class="subnav ">VIP Access</a></li>
+				      	</ul>
+				      </li>
+					</ul>
+				</nav>
+				<script src="assets/scripts/nav-active.js"></script>
+				<div id="menu">
+					<div id="mobile-menu" class="overlay">
+						<a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">&times;</a>
+						<ul class="mobile-menu-content">
+							<li><a href="welcome.html" class="mobile-nav">Welcome</a></li>
+						    <li>
+						    	<a href="about.html" class="mobile-nav-parent">About</a>
+						    	<input type="button" value="+" class="mobile-menu-more">
+						    	</input>
+						    	<ul id="about-dropdown" class="mobile-subnav-menu">
+						      		<li><a href="#" class="mobile-subnav ">Disclaimers</a></li>
+						      		<li><a href="about/contact.html" class="mobile-subnav ">Contact Us</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Disaster Prep Consultants</a></li>
+						      	</ul>
+						    </li>
+						    <li><a href="#" class="mobile-nav">Books by Jim Cobb</a></li>
+						    <li>
+						    	<a href="#" class="mobile-nav-parent">Blog</a>
+						    	<input type="button" value="+" class="mobile-menu-more">
+						    	<ul id="blog-dropdown" class="mobile-subnav-menu">
+						      		<li><a href="#" class="mobile-subnav ">Library at the End of the<br>World</a></li>
+						      		<li><a href="#" class="mobile-subnav ">SW Blog</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Self Reliant Woman</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Survival Retreat</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Tactical Corner</a></li>
+						      	</ul>
+						    </li>
+						    <li>
+						    	<a href="reviews.html" class="mobile-nav-parent">Reviews</a>
+						    	<input type="button" value="+" class="mobile-menu-more">
+						    	<ul id= "reviews-dropdown" class="mobile-subnav-menu">
+						      		<li><a href="#" class="mobile-subnav ">Books</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Fire Making</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Knives, Axes & Other<br>Tools</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Lights</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Miscellaneous</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Offgrid Cooking</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Packs, Pouches &<br>Organizers</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Power</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Survival Kits</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Water Filtration &<br>Storage</a></li>
+						      	</ul>
+						    </li>
+						    <li><a href="#" class="mobile-nav ">The Survival Weekly Dispatch</a></li>
+						    <li>
+						    	<a href="#" class="mobile-nav-parent">More</a>
+						    	<input type="button" value="+" class="mobile-menu-more">
+						    	<ul id="more-dropdown" class="mobile-subnav-menu">
+						      		<li><a href="#" class="mobile-subnav ">Point to Pommel<br>Newsletter</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Advertising</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Classes & Workshops</a></li>
+						      		<li><a href="#" class="mobile-subnav ">Need a Guest Speaker?</a></li>
+						      		<li><a href="#" class="mobile-subnav ">VIP Access</a></li>
+						      	</ul>
+						    </li>
+						    <script src="assets/scripts/mobile-menu.js"></script>
+						</ul>
+					</div>
+					<a href="javascript:void(0);"><img src="assets/images/menu-icon.png" width="40px" class="menu-icon" onclick="openMenu()"></a>
+				</div>
+			</div>
+		</header>
+		<main id="reviews-main">
+	    	<h1>Category: Reviews</h1>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-1.jpg"></a>
+	    		<h2><a href="#">CRKT Moxie</a></h2>
+	    		<p>Let me say up front that I’m a big fan of Columbia River Knife & Tool (CRKT). I own several of their products and have been using them for years without failure or complaint. As a general rule, I find CRKT products have great value for the dollar. Recently, I was brought on to be […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-2.jpg"></a>
+	    		<h2><a href="#">UST Outdoor Skill Card Set</a></h2>
+	    		<p>UST Outdoor Skill Card Set UST is a company specializing in survival and outdoor gear. They’ve been around for a while but have recently really been making a name for themselves with providing great gear for the budget-conscious user. Make no mistake, this isn’t junk masquerading as survival gear. In my experience, they are offering […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-3.jpg"></a>
+	    		<h2><a href="#">UltraTac K18 Flashlight</a></h2>
+	    		<p>Regular readers know of my love for the Streamlight ProTac 1AAA flashlight. I’ve carried it daily for about two years now and absolutely love it. I use it just about every single day and the battery lasts me about 4-5 months. On a whim, I picked up this UltraTac K18 light after seeing it among […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-4.jpg"></a>
+	    		<h2><a href="#">Sustain Supply Emergency Kits</a></h2>
+	    		<p>Store-bought emergency kits can have a place in disaster planning. I look at it like this – the best kits are the ones you assemble yourself, taking into account your individual circumstances, including your experience level, skill sets, and such. However, a good quality store-bought kit can give you a jump start and get you […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-5.jpg"></a>
+	    		<h2><a href="#">Uncle Henry Rancher</a></h2>
+	    		<p>There’s a part of me that will always be something of a traditionalist when it comes to knives and other gear. Don’t get me wrong, I love a lot of the modern stuff that’s available. But, there’s something just plain cool about a jackknife, for example. It isn’t tactical, or tacticool for that matter. You […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-6.jpg"></a>
+	    		<h2><a href="#">How to Survive Anywhere (Second Edition) by Christopher Nyerges</a></h2>
+	    		<p>I’ve known of Christopher Nyerges for a while. He was on the first season of Doomsday Preppers, way back before that show became something to point at and laugh about. I’d read several of his articles in various survival/prepper magazines, too. Simply put, he’s obviously been […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-7.jpg"></a>
+	    		<h2><a href="#">Steel Will Adept 1000</a></h2>
+	    		<p>Make no mistake, this knife is designed to do but one thing – put the hurt on somebody or something. This isn’t a bushcraft blade. You won’t be processing firewood, cleaning fish, or carving a spoon with the Steel Will Adept 1000. However, if you find you have a need for putting holes in something […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-8.jpg"></a>
+	    		<h2><a href="#">Mechanix Gloves</a></h2>
+	    		<p>Except perhaps for that lump of gray matter that resides between your ears, your hands are likely your most valuable natural tool. Those fingers and opposable thumbs allow you to create and use any number of things. We often take our hands for granted, though, and fail to protect them properly. While a splinter or […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-9.jpg"></a>
+	    		<h2><a href="#">The Survival Medicine Handbook (Third Edition)</a></h2>
+	    		<p>A few years ago, I did a short review on the first edition of The Survival Medicine Handbook by Joseph Alton, MD, and Amy Alton, ARNP. You can find that review here, if you’re so inclined. That book came out in 2011, I believe. In 2013, they came out with the 2nd edition. Now, they’ve […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-10.jpg"></a>
+	    		<h2><a href="#">Streamlight ProTac HL4</a></h2>
+	    		<p>Let me say up front this is easily the brightest flashlight I’ve owned to date. Streamlight claims 2,200 lumens with this bad boy and I have no reason to doubt that. It contains all of that power in a relatively compact size, too. However, all that said, it isn’t without faults. The ProTac HL4 is […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-11.jpg"></a>
+	    		<h2><a href="#">Bug Out Personal Hygiene Kit</a></h2>
+	    		<p>As the saying goes, cleanliness is next to godliness. I don’t know if that’s true or not but I do know that keeping at least reasonably clean is important for health and morale. Both of those are vitally important during a bug out. The cleaner you are, the less risk of infection from small cuts […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-12.jpg"></a>
+	    		<h2><a href="#">Water Bottle Shoulder Bag</a></h2>
+	    		<p>This is the Water Bottle Shoulder Bag sold by Survival Resources. I’ll tell you up front, I own way more packs, pouches, and bags a guy has any reason to have. That said, when I saw the advertisement for this bag hit my Facebook feed a while back, I knew I had to check it […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    	<article class="review">
+	    		<a href="#"><img src="assets/images/review-13.jpg"></a>
+	    		<h2><a href="#">4Directions Bushcraft</a></h2>
+	    		<p>4Directions Bushcraft is owned and operated by Chris and Tawny Deslo. They are based in Missouri and all of their tinder products are locally sourced on their own land. They take great care in preserving resources, which is admirable. They recently sent over a few of their products for evaluation. I’ll tell you up front, […]</p>
+	    		<button onclick="window.location.href='#'">Read More</button>
+	    	</article>
+	    </main>
+		<footer>
+			<section id="above-footer">
+				<div>
+		    		<h1>Disclaimer</h1>
+		    		<p>We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to <a href="https://amazon.com">Amazon.com</a> and affiliated sites.  Product links found on this site may be affiliate links.</p>
+		    		<p>Read all our disclaimers <a href="#">HERE</a>.</p>
+		    	</div>
+		    	<div>
+		    		<h1>New!</h1>
+		    		<p>Be sure to check out Jim's latest project:</p>
+		    		<p><a href="https://libraryateotw.libsyn.com">Library at the End of the World -podcast</a></p>
+		    	</div>
+			</section>
+			<section id="copyright">
+				<button onclick="toTop()" id="top-btn" title="Go to top">
+					<span id="up-arrow"></span>
+				</button>
+				<script src="assets/scripts/to-top.js"></script>
+				<p>&copy; 2023 SurvivalWeekly.com</p>
+				<p>Designed by Michael Cobb</p>
+			</section>
+		</footer>
+	</body>
+</html>
